@@ -745,10 +745,10 @@ fieldset{
 /* -----Mobile View----- */
 /* -----Mobile View----- */
 /* -----Mobile View----- */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .main-container {
     flex-direction: column;
-    width: 470px;
+    width: 120%;
     padding: 10px;
   }
 /* -----Personal Details----- */
