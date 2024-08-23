@@ -745,7 +745,7 @@ fieldset{
 /* -----Mobile View----- */
 /* -----Mobile View----- */
 /* -----Mobile View----- */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .main-container {
     flex-direction: column;
     width: 470px;
