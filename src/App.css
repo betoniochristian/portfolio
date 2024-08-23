@@ -742,15 +742,13 @@ fieldset{
   color: #d9b362;
 }
 
-
-
-
 /* -----Mobile View----- */
 /* -----Mobile View----- */
 /* -----Mobile View----- */
 @media (max-width: 767px) {
   .main-container {
     flex-direction: column;
+    width: 470px;
     padding: 10px;
   }
 /* -----Personal Details----- */
@@ -915,7 +913,7 @@ fieldset{
   background-color: #625b45;
 }
 .nav-info a:nth-child(4):hover~span{
-  left: 355px;
+  left: 360px;
   border-radius: 10px;
   background-color: #625b45;
 }
@@ -955,7 +953,7 @@ fieldset{
   display: flex;
   margin-left: 35px;
   height: 150px;
-  width: 420px;
+  width: 400px;
   border-radius: 20px;
   background-color: #232323;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -964,7 +962,7 @@ fieldset{
   display: flex;
   margin-left: 35px;
   height: 150px;
-  width: 420px;
+  width: 400px;
   border-radius: 20px;
   background-color: #232323;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -973,7 +971,7 @@ fieldset{
   display: flex;
   margin-left: 35px;
   height: 150px;
-  width: 420px;
+  width: 400px;
   border-radius: 20px;
   background-color: #232323;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -982,7 +980,7 @@ fieldset{
   display: flex;
   margin-left: 35px;
   height: 150px;
-  width: 420px;
+  width: 400px;
   border-radius: 20px;
   background-color: #232323;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -1032,7 +1030,7 @@ fieldset{
   margin-top: 40px;
   margin-left: 40px;
   height: 150px;
-  width: 415px;
+  width: 400px;
   border-radius: 20px;
   background-color: #232323;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -1043,8 +1041,8 @@ fieldset{
   flex-direction: column;
   margin-top: 40px;
   margin-left: 40px;
-  height: 150px;
-  width: 415px;
+  height: 175px;
+  width: 400px;
   border-radius: 20px;
   background-color: #232323;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -1078,6 +1076,7 @@ fieldset{
 }
 .tes-1{
   margin-top: 10px;
+  margin-left: 40px;
   color: white;
 }
 .tes-2{
@@ -1123,7 +1122,7 @@ fieldset{
   color: #7d795e;
 }
 .vertical-line{
-  height: 1087px;
+  height: 1158px;
   width: 5px;
   margin-left: 23px;
   background-color: #212023;
@@ -1138,7 +1137,7 @@ fieldset{
 
 }
 .circle{
-  margin-top: -1038px;
+  margin-top: -1110px;
   margin-left: 17.5px;
   width: 15px;
   height: 15px;
@@ -1146,7 +1145,7 @@ fieldset{
   border-radius: 50%;
 }
 .circle-1{
-  margin-top: 280px;
+  margin-top: 300px;
   margin-left: 17.5px;
   width: 15px;
   height: 15px;
@@ -1154,7 +1153,7 @@ fieldset{
   border-radius: 50%;
 }
 .circle-2{
-  margin-top: 363px;
+  margin-top: 414px;
   margin-left: 17.5px;
   width: 15px;
   height: 15px;
@@ -1162,7 +1161,7 @@ fieldset{
   border-radius: 50%;
 }
 .circle-3{
-  margin-top: 340px;
+  margin-top: 342px;
   margin-left: 17.5px;
   width: 15px;
   height: 15px;
@@ -1204,6 +1203,7 @@ fieldset{
 .school-1{
   margin-left: 10px;
   margin-top: 12px;
+  margin-right: 5px;
   color: white;
   font-weight: bold;
 }
@@ -1250,7 +1250,7 @@ fieldset{
 }
 .personal-nav-container > a{
   margin-top: 60px;
-  padding: 10px;
+  padding: 5px;
   text-decoration: none;
   color: white;
 }
@@ -1278,7 +1278,7 @@ fieldset{
 .project-img{
   border-radius: 20px;
   height: 250px;
-  width: 410px;
+  width: 390px;
   object-fit: cover;
 }
 .project-title{
@@ -1288,7 +1288,6 @@ fieldset{
 .text-project{
   color: white;
 }
-
 /* -----Message Container----- */
 .contact-container{
   display: flex;
@@ -1386,7 +1385,7 @@ fieldset{
   position: relative;
   margin-top: 30px;
   height: 400px;
-  width: 415px;
+  width: 400px;
   background-color: #1d1d1d;
   border-radius: 10px;
   border: 1px solid #7d7d7d;
@@ -1432,3 +1431,4 @@ fieldset{
   color: #d9b362;
 }
 }
+

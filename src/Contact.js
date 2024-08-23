@@ -13,6 +13,8 @@ class Contact extends React.Component{
                 <div className="contact-container">
                     <Message />
                 </div>
+
+                <div className="sepra"></div>
             </div>
         )
     }
