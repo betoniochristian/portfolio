@@ -110,7 +110,7 @@ const Message = () => {
             <label htmlFor="textarea-one" className="textarea-value">Write Message</label>
       </div>
 
-    <button type="submit" className="submit-btn" onClick={handleSubmit} ><i class="bi-send">Send</i></button>
+    <button type="submit" className="submit-btnn" onClick={handleSubmit} ><i class="bi-send">Send</i></button>
   
     </div>
   );
