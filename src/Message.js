@@ -55,10 +55,12 @@ const Message = () => {
       process.env.REACT_APP_EMAILJS_USER_ID               
     ).then((response) => {
       console.log('SUCCESS!', response.status, response.text);
+      console.log("Hello")
       alert('Your message has been successfully sent!');
     }).catch((error) => {
       console.log('FAILED...', error);
       alert('There was an error sending your message. Please try again later.');
+      console.log("Hi")
     });
   };
   
@@ -109,7 +111,7 @@ const Message = () => {
       </div>
 
     <button type="submit" className="submit-btn" onClick={handleSubmit} ><i class="bi-send">Send</i></button>
-
+  
     </div>
   );
 };
