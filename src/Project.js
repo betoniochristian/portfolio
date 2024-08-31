@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from './Nav';
 import PersonalNav from './PersonalNav'
 import AllProject from './AllProject'
 import Html from './Html'

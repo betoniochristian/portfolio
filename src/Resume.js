@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from './Nav';
 import './App.css'
 
 class Resume extends React.Component{

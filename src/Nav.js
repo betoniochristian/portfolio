@@ -15,7 +15,7 @@ class Nav extends React.Component{
         return(
             <div className="nav-container">
                 <nav className="nav-info">
-                    <a href="#" onClick={() => this.handleClick('About')}>About</a>
+                    <a href="#forAbout" onClick={() => this.handleClick('About')}>About</a>
                     <a href="#forResume" onClick={() => this.handleClick('Resume')}>Resume</a>
                     <a href="#forPortfolio" onClick={() => this.handleClick('Portfolio')}>Portfolio</a>
                     <a href="#forContact" onClick={() => this.handleClick('Contact')}>Contact</a>
