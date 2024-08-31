@@ -49,10 +49,10 @@ const Message = () => {
     };
 
     emailjs.send(
-      'service_mgo1bq4',          
-      'template_5kd6guo',          
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
       templateParams,
-      'Mm0eRTHcufspt3nvF'               
+      process.env.REACT_APP_EMAILJS_USER_ID               
     ).then((response) => {
       console.log('SUCCESS!', response.status, response.text);
       alert('Your message has been successfully sent!');
