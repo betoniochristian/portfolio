@@ -6,10 +6,11 @@ class JavaProject extends React.Component{
         return(
             <div className="all-project">
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Payroll-for-PH?tab=readme-ov-file" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Payroll-for-PH?tab=readme-ov-file" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/payroll-java.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Payroll System</h5>
@@ -17,10 +18,11 @@ class JavaProject extends React.Component{
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Overtime-Monitoring-System?tab=readme-ov-file" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Overtime-Monitoring-System?tab=readme-ov-file" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/overtime-java.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Overtime Monitoring System</h5>
@@ -28,10 +30,11 @@ class JavaProject extends React.Component{
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Benefits-Monitoring-System?tab=readme-ov-file" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Benefits-Monitoring-System?tab=readme-ov-file" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/benefits-java.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Benefits Monitoring System</h5>
@@ -39,10 +42,11 @@ class JavaProject extends React.Component{
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Employee-Monitoring-System?tab=readme-ov-file" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Employee-Monitoring-System?tab=readme-ov-file" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/employee-java.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Employee Monitoring System</h5>

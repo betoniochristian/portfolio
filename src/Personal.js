@@ -15,7 +15,7 @@ class Personal extends React.Component{
                         <div className="info-details">
                             <p className="info-type">Email</p>
                             <a className="a-git" href="https://mail.google.com/mail/?view=cm&fs=1&to=betoniochristian22@gmail.com
-" target="_blank"><p className="email">betoniochristian22@gmail.com</p></a>
+" target="_blank" rel="noreferrer"><p className="email">betoniochristian22@gmail.com</p></a>
                         </div>
                     </div>
 
@@ -23,7 +23,7 @@ class Personal extends React.Component{
                         <i className="bil bi-github"></i> 
                         <div className="info-details">
                             <p className="info-type">GitHub</p>
-                            <a className="a-git" href="https://github.com/betoniochristian" target='_blank'><p className="email">github.com/betoniochristian</p></a>   
+                            <a className="a-git" href="https://github.com/betoniochristian" target='_blank' rel="noreferrer"><p className="email">github.com/betoniochristian</p></a>   
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ class Personal extends React.Component{
                         <i className="bil bi-linkedin"></i> 
                         <div className="info-details">
                             <p className="info-type">LinkedIn</p>
-                            <a className="a-git" href="https://www.linkedin.com/in/betoniochristian22/" target='_blank'><p className="email">linkedin.com/betoniochristian22</p></a>   
+                            <a className="a-git" href="https://www.linkedin.com/in/betoniochristian22/" target='_blank' rel="noreferrer"><p className="email">linkedin.com/betoniochristian22</p></a>   
                         </div>
                     </div>  
 

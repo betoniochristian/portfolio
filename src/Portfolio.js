@@ -24,9 +24,9 @@ class Portfolio extends React.Component {
                 </div>
 
                 <div className="social-container">
-                        <a href="https://www.facebook.com/betoniochristian/" target='_blank'><i className="bill bi-facebook"></i></a>
+                        <a href="https://www.facebook.com/betoniochristian/" target='_blank' rel="noreferrer"><i className="bill bi-facebook"></i></a>
                         <a href="#"><i class="bill bi-twitter"></i></a>
-                        <a href="https://www.instagram.com/christian.betonio/" target='_blank'><i className="bill bi-instagram"></i></a>
+                        <a href="https://www.instagram.com/christian.betonio/" target='_blank' rel="noreferrer"><i className="bill bi-instagram"></i></a>
                 </div>
 
                 <div className="sepra"></div>

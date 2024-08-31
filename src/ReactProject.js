@@ -6,10 +6,11 @@ class ReactProject extends React.Component{
         return(
             <div className="all-project">
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Calculator-React" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Calculator-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/calculator-react.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Calculator</h5>
@@ -17,10 +18,11 @@ class ReactProject extends React.Component{
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Drum-Machine" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Drum-Machine" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/drum-machine-react.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Drum Machine</h5>
@@ -28,10 +30,11 @@ class ReactProject extends React.Component{
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Clock-React" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Clock-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/clock-react.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Pomodoro Clock</h5>
@@ -39,10 +42,11 @@ class ReactProject extends React.Component{
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Markdown-React" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Markdown-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/markdown-react.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Markdown</h5>
@@ -50,10 +54,11 @@ class ReactProject extends React.Component{
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/colorChange-React" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/colorChange-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/backgroundChanger-react.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Color Change</h5>

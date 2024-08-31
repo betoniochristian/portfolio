@@ -6,10 +6,11 @@ class AllProject extends React.Component {
         return(
             <div className="all-project"> 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Calculator-React" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Calculator-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/calculator-react.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Calculator</h5>
@@ -17,10 +18,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Drum-Machine" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Drum-Machine" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/drum-machine-react.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Drum Machine</h5>
@@ -28,10 +30,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Clock-React" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Clock-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/clock-react.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Pomodoro Clock</h5>
@@ -39,10 +42,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Markdown-React" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Markdown-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/markdown-react.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Markdown</h5>
@@ -50,10 +54,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/colorChange-React" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/colorChange-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/backgroundChanger-react.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Color Change</h5>
@@ -61,10 +66,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Fetch-Pokemon" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Fetch-Pokemon" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/pokemon-js.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Pokemon Search</h5>
@@ -72,10 +78,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Cash-Register-JS" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Cash-Register-JS" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/cash-register-js.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Cash Register</h5>
@@ -83,10 +90,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/TelephoneNumber-JS" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/TelephoneNumber-JS" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/telephone-js.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Telephone Number</h5>
@@ -94,10 +102,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/RomanNumeral-JS" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/RomanNumeral-JS" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/roman-numeral-js.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Roman Numeral Converter</h5>
@@ -105,10 +114,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Palindrome-JS" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Palindrome-JS" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/palindrome-js.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Palindrome Checker</h5>
@@ -116,10 +126,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Product-Landing-Page" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Product-Landing-Page" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/product-landing-page.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Project Landing Page</h5>
@@ -127,10 +138,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Technical-Documentation" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Technical-Documentation" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/technical-html.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Technical Document</h5>
@@ -138,10 +150,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Survey-Form" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Survey-Form" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/survey-html.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Survey Form</h5>
@@ -149,10 +162,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Payroll-for-PH?tab=readme-ov-file" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Payroll-for-PH?tab=readme-ov-file" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/payroll-java.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Payroll System</h5>
@@ -160,10 +174,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Overtime-Monitoring-System?tab=readme-ov-file" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Overtime-Monitoring-System?tab=readme-ov-file" target="_blank" rel="noreferrer"> 
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/overtime-java.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Overtime Monitoring System</h5>
@@ -171,10 +186,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Benefits-Monitoring-System?tab=readme-ov-file" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Benefits-Monitoring-System?tab=readme-ov-file" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/benefits-java.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Benefits Monitoring System</h5>
@@ -182,10 +198,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/Employee-Monitoring-System?tab=readme-ov-file" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/Employee-Monitoring-System?tab=readme-ov-file" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/employee-java.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Employee Monitoring System</h5>
@@ -193,10 +210,11 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/ARMarshalling" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/ARMarshalling" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/ar-unity.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Augmented Reality</h5>

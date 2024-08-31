@@ -6,10 +6,11 @@ class Unity extends React.Component{
         return(
             <div className="all-project">
                 <div className="project-container-git">
-                    <a className="" href="https://github.com/betoniochristian/ARMarshalling" target="_blank">
+                    <a className="" href="https://github.com/betoniochristian/ARMarshalling" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
                         src={`${process.env.PUBLIC_URL}/images/ar-unity.jpg`}
+                        alt="project's"
                     />
                     </a>
                     <h5 className="project-title">Augmented Reality</h5>
