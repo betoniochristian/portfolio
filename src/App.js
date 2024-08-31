@@ -20,7 +20,6 @@ handleNavChange = (section) => {
     this.setState({ currentSection: section });
 }
   render(){
-    let content; 
     return(
       <div className="main-container">
         <div className="side-bar-menu">
