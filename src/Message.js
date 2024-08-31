@@ -38,7 +38,30 @@ const Message = () => {
 
   const handleChangeTextArea = (event) => setIsTextValue(event.target.value);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    const templateParams = {
+      from_name: value,          
+      to_name: "Christian Betonio", 
+      from_email: isValue,         
+      message: isTextValue,        
+    };
 
+    emailjs.send(
+      'service_mgo1bq4',          
+      'template_5kd6guo',          
+      templateParams,
+      'Mm0eRTHcufspt3nvF'               
+    ).then((response) => {
+      console.log('SUCCESS!', response.status, response.text);
+      alert('Your message has been successfully sent!');
+    }).catch((error) => {
+      console.log('FAILED...', error);
+      alert('There was an error sending your message. Please try again later.');
+    });
+  };
+  
   
   return (
     <div className="message-container">
@@ -85,7 +108,7 @@ const Message = () => {
             <label htmlFor="textarea-one" className="textarea-value">Write Message</label>
       </div>
 
-    <buton type="submit" className="submit-btn"><i class="bi-send">Send</i></buton>
+    <button type="submit" className="submit-btn" onClick={handleSubmit}><i class="bi-send">Send</i></button>
 
     </div>
   );
