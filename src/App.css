@@ -1126,7 +1126,7 @@ fieldset{
   color: #7d795e;
 }
 .vertical-line{
-  height: 1158px;
+  height: 1110px;
   width: 5px;
   margin-left: 23px;
   background-color: #212023;
@@ -1141,7 +1141,7 @@ fieldset{
 
 }
 .circle{
-  margin-top: -1110px;
+  margin-top: -1062px;
   margin-left: 17.5px;
   width: 15px;
   height: 15px;
@@ -1149,7 +1149,7 @@ fieldset{
   border-radius: 50%;
 }
 .circle-1{
-  margin-top: 300px;
+  margin-top: 278px;
   margin-left: 17.5px;
   width: 15px;
   height: 15px;
@@ -1157,7 +1157,7 @@ fieldset{
   border-radius: 50%;
 }
 .circle-2{
-  margin-top: 414px;
+  margin-top: 390px;
   margin-left: 17.5px;
   width: 15px;
   height: 15px;
@@ -2132,4 +2132,9 @@ fieldset{
   color: #d9b362;
 }
 }
+
+
+
+
+
 
