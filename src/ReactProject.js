@@ -2,10 +2,40 @@ import React from 'react'
 import './App.css'
 
 class ReactProject extends React.Component{
+    constructor(props){
+        super(props)
+        this.projectRef = React.createRef();
+        this.projectRef1 = React.createRef();
+        this.projectRef2 = React.createRef();
+        this.projectRef3 = React.createRef();
+        this.projectRef4 = React.createRef();
+    }
+    componentDidMount(){
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1,
+        };
+
+        const callback = (entries) => {
+            entries.forEach((entry) => {
+                if(entry.isIntersecting){
+                    entry.target.classList.add('animate');
+                }
+            })
+        }
+
+        const observer = new IntersectionObserver(callback, options);
+        if (this.projectRef.current) observer.observe(this.projectRef.current);
+        if (this.projectRef1.current) observer.observe(this.projectRef1.current);
+        if (this.projectRef2.current) observer.observe(this.projectRef2.current);
+        if (this.projectRef3.current) observer.observe(this.projectRef3.current);
+        if (this.projectRef4.current) observer.observe(this.projectRef4.current);
+    }
     render(){
         return(
             <div className="all-project">
-                <div className="project-container-git">
+                <div className="project-container-git" ref={this.projectRef}>
                     <a className="" href="https://github.com/betoniochristian/Calculator-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
@@ -17,7 +47,7 @@ class ReactProject extends React.Component{
                     <p className="text-project">React</p>
                 </div>
 
-                <div className="project-container-git">
+                <div className="project-container-git" ref={this.projectRef1}>
                     <a className="" href="https://github.com/betoniochristian/Drum-Machine" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
@@ -29,7 +59,7 @@ class ReactProject extends React.Component{
                     <p className="text-project">React</p>
                 </div>
 
-                <div className="project-container-git">
+                <div className="project-container-git" ref={this.projectRef2}>
                     <a className="" href="https://github.com/betoniochristian/Clock-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
@@ -41,7 +71,7 @@ class ReactProject extends React.Component{
                     <p className="text-project">React</p>
                 </div>
 
-                <div className="project-container-git">
+                <div className="project-container-git" ref={this.projectRef3}>
                     <a className="" href="https://github.com/betoniochristian/Markdown-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
@@ -53,7 +83,7 @@ class ReactProject extends React.Component{
                     <p className="text-project">React</p>
                 </div>
 
-                <div className="project-container-git">
+                <div className="project-container-git" ref={this.projectRef4}>
                     <a className="" href="https://github.com/betoniochristian/colorChange-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"

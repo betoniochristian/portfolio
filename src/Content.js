@@ -5,17 +5,45 @@ class Content extends React.Component{
     constructor(props){
         super(props)
         this.state ={}
+        this.doingRef = React.createRef();
+        this.testimonialsRef = React.createRef();
+        this.contentRef = React.createRef();
+        this.testiRef = React.createRef();
     }
+
+    componentDidMount() {
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1,
+        };
+
+        const callback = (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(callback, options);
+        if (this.contentRef.current) observer.observe(this.contentRef.current);
+        if (this.doingRef.current) observer.observe(this.doingRef.current);
+        if (this.testimonialsRef.current) observer.observe(this.testimonialsRef.current);
+        if (this.testiRef.current) observer.observe(this.testiRef.current);
+    }
+
     render(){
         return(
             <div className="content">
+                <div className="personal-content-text" ref={this.contentRef}>
                     <p className="personal-text-content">Hi, I'm Christian Betonio, an aspiring web developer. I graduated from the Philippine State College of Aeronautics with a Bachelor of Science in Aviation Information Technology. With a strong foundation in technology, I’m eager to apply my skills in web development to create innovative and effective solutions.</p>
                     <p className="text-content">I am excited to continue learning and growing in web development. I’m committed to improving my skills and gaining a deeper understanding of front-end technologies and best practices. By staying curious and exploring new techniques, I aim to enhance my ability to create engaging and effective web experiences. I’m looking forward to the journey ahead and the opportunities it will bring to apply and expand my knowledge.</p>
                 
                     <h2 className="h2-content">What I'm Doing</h2>
-                
+                </div>
 
-                    <div className="doing">
+                    <div className="doing" ref={this.doingRef}>
                         <div className="my-doing">
                             <div className="doing-item">
                             <i class="bi bi-filetype-java"></i>
@@ -57,10 +85,9 @@ class Content extends React.Component{
                         </div>
                     </div>
                     
-                    <h2 className="h2-content-1">Testimonials</h2>
-
-                    <div className="testominials">
-                        
+                    
+                    <h2 className="h2-content-testi" ref={this.testiRef}>Testimonials</h2>
+                    <div className="testominials" ref={this.testimonialsRef}>
                         <fieldset>
                             <legend className="legend-1"><i class="bi-person-circle"></i></legend>
                             <div className="testominials-1">

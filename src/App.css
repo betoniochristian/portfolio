@@ -114,7 +114,6 @@ body{
   display: flex;
   flex-direction: column;
   width: 100%;
-  
 }
 .about{
   display: flex;
@@ -192,7 +191,7 @@ body{
 /* -----Content Container----- */
 .content{
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 .personal-text-content{
   color: white;
@@ -290,6 +289,27 @@ body{
   text-align: center;
 }
 /* -----Testimonials Container----- */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+.doing, .testimonials, .personal-content-text{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-in-out;
+}
+.animate {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeIn 1s forwards;
+}
+
 .testominials{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -335,7 +355,7 @@ fieldset{
   align-items: center;
   justify-content: center;
 }
-.h2-content-1{
+.h2-content-testi{
   margin-top: 10px;
   margin-left: 40px;
   color: white;
@@ -2134,7 +2154,24 @@ fieldset{
 }
 
 
+@keyframes fadeOut {
+  from {
+      opacity: 0;
+      transform: translateX(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+.animation{
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeIn 1s forwards;
+}
 
-
-
-
+.animationText{
+  opacity: 1;
+  transform: translateX(0);
+  animation: fadeOut 1.5s forwards;
+}
