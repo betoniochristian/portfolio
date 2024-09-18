@@ -61,6 +61,32 @@ class AllProject extends React.Component {
     render(){
         return(
             <div className="all-project" ref={this.projectRef}> 
+
+
+                <div className="project-container-git">
+                    <a className="" href="https://betoniochristian.github.io/portfolio" target="_blank" rel="noreferrer">
+                    <img 
+                        className="project-img"
+                        src={`${process.env.PUBLIC_URL}/images/portfolio-react.jpg`}
+                        alt="project's"
+                    />
+                    </a>
+                    <h5 className="project-title">Portfolio</h5>
+                    <p className="text-project">React</p>
+                </div>
+
+                <div className="project-container-git">
+                    <a className="" href="https://betoniochristian.github.io/movie-review" target="_blank" rel="noreferrer">
+                    <img 
+                        className="project-img"
+                        src={`${process.env.PUBLIC_URL}/images/movie-review-react.jpg`}
+                        alt="project's"
+                    />
+                    </a>
+                    <h5 className="project-title">Moview Review</h5>
+                    <p className="text-project">React</p>
+                </div>
+
                 <div className="project-container-git">
                     <a className="" href="https://github.com/betoniochristian/Calculator-React" target="_blank" rel="noreferrer">
                     <img 
