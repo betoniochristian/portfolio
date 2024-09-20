@@ -1776,14 +1776,14 @@ fieldset{
     color: #7d795e;
   }
   .vertical-line{
-    height: 608px;
+    height: 593px;
     width: 5px;
     margin-left: 23px;
     background-color: #212023;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .vertical-line-1{
-    height: 200px;
+    height: 197px;
     width: 5px;
     margin-left: 23px;
     background-color: #212023;
@@ -1791,7 +1791,7 @@ fieldset{
   
   }
   .circle{
-    margin-top: -559px;
+    margin-top: -545px;
     margin-left: 17.5px;
     width: 15px;
     height: 15px;
@@ -1799,7 +1799,7 @@ fieldset{
     border-radius: 50%;
   }
   .circle-1{
-    margin-top: 158px;
+    margin-top: 153px;
     margin-left: 17.5px;
     width: 15px;
     height: 15px;
@@ -1807,7 +1807,7 @@ fieldset{
     border-radius: 50%;
   }
   .circle-2{
-    margin-top: 173px;
+    margin-top: 170px;
     margin-left: 17.5px;
     width: 15px;
     height: 15px;
@@ -1815,7 +1815,7 @@ fieldset{
     border-radius: 50%;
   }
   .circle-3{
-    margin-top: 175px;
+    margin-top: 168px;
     margin-left: 17.5px;
     width: 15px;
     height: 15px;
