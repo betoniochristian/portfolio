@@ -6,6 +6,7 @@ import Javascript from './Javascript';
 import ReactProject from './ReactProject';
 import JavaProject from './JavaProject';
 import Unity from './Unity';
+import Native from './Native';
 import './App.css'
 
 class Project extends React.Component{
@@ -52,6 +53,7 @@ class Project extends React.Component{
                 {this.state.currentState === 'HTML/CSS' && <Html />}
                 {this.state.currentState === 'HTML/CSS/JS' && <Javascript />}
                 {this.state.currentState === 'React' && <ReactProject />}
+                {this.state.currentState === 'React Native' && <Native />}
                 {this.state.currentState === 'Java' && <JavaProject />}
                 {this.state.currentState === 'Unity' && <Unity />}
                 </div>

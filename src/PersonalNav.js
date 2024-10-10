@@ -19,6 +19,7 @@ class PersonalNav extends React.Component{
                     <a href="#HTML/CSS" onClick={() => this.handleClick('HTML/CSS')}>HTML/CSS</a>
                     <a href="#HTML/CSS/JS" onClick={() => this.handleClick('HTML/CSS/JS')}>HTML/CSS/JS</a>
                     <a href="#React" onClick={() => this.handleClick('React')}>React</a>
+                    <a href="#Native" onClick={() => this.handleClick('React Native')}>React Native</a>
                     <a href="#Java" onClick={() => this.handleClick('Java')}>Java</a>
                     <a href="#Unity" onClick={() => this.handleClick('Unity')}>Unity</a>
                 </nav>

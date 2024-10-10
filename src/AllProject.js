@@ -88,6 +88,18 @@ class AllProject extends React.Component {
                 </div>
 
                 <div className="project-container-git">
+                    <a className="" href="https://github.com/betoniochristian/fitnessApp" target="_blank" rel="noreferrer">
+                    <img 
+                        className="project-img"
+                        src={`${process.env.PUBLIC_URL}/images/Main Interface.jpg`}
+                        alt="project's"
+                    />
+                    </a>
+                    <h5 className="project-title">Fitness Application</h5>
+                    <p className="text-project">React Native</p>
+                </div>
+
+                <div className="project-container-git">
                     <a className="" href="https://github.com/betoniochristian/Calculator-React" target="_blank" rel="noreferrer">
                     <img 
                         className="project-img"
