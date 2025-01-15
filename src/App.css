@@ -1384,7 +1384,7 @@ fieldset{
   .main-container{
     background-color: #101010;
     height: auto;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
   }
@@ -1396,7 +1396,7 @@ fieldset{
   }
   .personal-details{
     height: auto;
-    width: 350px;
+    width: 325px;
     border-radius: 25px;
     background-color: #1e1e1e;
     display: flex;
@@ -1476,7 +1476,7 @@ fieldset{
     margin-top: 0;
     margin-left: 20px;
     height: auto;
-    width: 1100px;
+    width: 900px;
     border-radius: 25px;
     background-color: #1e1e1e;
     display: flex;
@@ -1509,7 +1509,7 @@ fieldset{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 545px;
+    margin-left: 450px;
     height: 75px;
     width: 50%;
     background-color: #272727;
@@ -1528,7 +1528,7 @@ fieldset{
     display: inline-block;
     color: white;
     text-decoration: none;
-    padding: 0 40px;
+    padding: 0 30px;
     z-index: 1;
   }
   .nav-info > span{
@@ -1541,21 +1541,21 @@ fieldset{
     border-radius: 10px;
   }
   .nav-info a:nth-child(1):hover~span{
-    left: 20px;
+    left: 10px;
     background-color: #625b45;
   }
   .nav-info a:nth-child(2):hover~span{
-    left: 150px;
+    left: 120px;
     border-radius: 10px;
     background-color: #625b45;
   }
   .nav-info a:nth-child(3):hover~span{
-    left: 288px;
+    left: 238px;
     border-radius: 10px;
     background-color: #625b45;
   }
   .nav-info a:nth-child(4):hover~span{
-    left: 425px;
+    left: 355px;
     border-radius: 10px;
     background-color: #625b45;
   }
@@ -1595,7 +1595,7 @@ fieldset{
     margin-top: 20px;
     margin-left: 40px;
     height: 150px;
-    width: 450px;
+    width: 390px;
     border-radius: 20px;
     background-color: #232323;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -1605,7 +1605,7 @@ fieldset{
     margin-top: 20px;
     margin-left: 50px;
     height: 150px;
-    width: 450px;
+    width: 390px;
     border-radius: 20px;
     background-color: #232323;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -1615,7 +1615,7 @@ fieldset{
     margin-top: 20px;
     margin-left: 40px;
     height: 150px;
-    width: 450px;
+    width: 390px;
     border-radius: 20px;
     background-color: #232323;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -1625,7 +1625,7 @@ fieldset{
     margin-top: 20px;
     margin-left: 50px;
     height: 150px;
-    width: 450px;
+    width: 390px;
     border-radius: 20px;
     background-color: #232323;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -1685,8 +1685,8 @@ fieldset{
     flex-direction: column;
     margin-top: 40px;
     margin-left: 40px;
-    height: 150px;
-    width: 450px;
+    height: 200px;
+    width: 390px;
     border-radius: 20px;
     background-color: #232323;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -1697,8 +1697,8 @@ fieldset{
     flex-direction: column;
     margin-top: 40px;
     margin-left: 40px;
-    height: 150px;
-    width: 450px;
+    height: 200px;
+    width: 390px;
     border-radius: 20px;
     background-color: #232323;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -1776,14 +1776,14 @@ fieldset{
     color: #7d795e;
   }
   .vertical-line{
-    height: 593px;
+    height: 690px;
     width: 5px;
     margin-left: 23px;
     background-color: #212023;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .vertical-line-1{
-    height: 197px;
+    height: 220px;
     width: 5px;
     margin-left: 23px;
     background-color: #212023;
@@ -1791,7 +1791,7 @@ fieldset{
   
   }
   .circle{
-    margin-top: -545px;
+    margin-top: -640px;
     margin-left: 17.5px;
     width: 15px;
     height: 15px;
@@ -1799,7 +1799,7 @@ fieldset{
     border-radius: 50%;
   }
   .circle-1{
-    margin-top: 153px;
+    margin-top: 175px;
     margin-left: 17.5px;
     width: 15px;
     height: 15px;
@@ -1807,7 +1807,7 @@ fieldset{
     border-radius: 50%;
   }
   .circle-2{
-    margin-top: 170px;
+    margin-top: 215px;
     margin-left: 17.5px;
     width: 15px;
     height: 15px;
@@ -1815,7 +1815,7 @@ fieldset{
     border-radius: 50%;
   }
   .circle-3{
-    margin-top: 168px;
+    margin-top: 195px;
     margin-left: 17.5px;
     width: 15px;
     height: 15px;
@@ -1823,7 +1823,7 @@ fieldset{
     border-radius: 50%;
   }
   .circle-11{
-    margin-top: -150px;
+    margin-top: -170px;
     margin-left: 17.5px;
     width: 15px;
     height: 15px;
@@ -1831,7 +1831,7 @@ fieldset{
     border-radius: 50%;
   }
   .circle-12{
-    margin-top: 130px;
+    margin-top: 150px;
     margin-left: 17.5px;
     width: 15px;
     height: 15px;
@@ -1885,7 +1885,7 @@ fieldset{
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     height: 300px;
-    width: 1000px;
+    width: 840px;
     background-color: #222224;
     padding: 25px;
   }
@@ -1979,7 +1979,7 @@ fieldset{
   .project-img{
     border-radius: 20px;
     height: 250px;
-    width: 500px;
+    width: 400px;
     object-fit: cover;
   }
   .project-title{
@@ -2085,7 +2085,7 @@ fieldset{
     position: relative;
     margin-top: 30px;
     height: 400px;
-    width: 974px;
+    width: 845px;
     background-color: #1d1d1d;
     border-radius: 10px;
     border: 1px solid #7d7d7d;
